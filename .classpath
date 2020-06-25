@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Behavioral Design Patterns/Command/Example #1/src"/>
+	<classpathentry kind="src" path="Behavioral Design Patterns/Iterator/Example #1/src"/>
+	<classpathentry kind="src" path="Behavioral Design Patterns/Observer/Example #1/ObserverDesignPattern/src"/>
+	<classpathentry kind="src" path="Behavioral Design Patterns/Strategy/Example #1/src"/>
+	<classpathentry kind="src" path="Behavioral Design Patterns/Strategy/Example #2/src"/>
+	<classpathentry kind="src" path="Behavioral Design Patterns/Template Method/Example #1/src"/>
+	<classpathentry kind="src" path="Creational Design Patterns/Abstract Factory/Example #1/src"/>
+	<classpathentry kind="src" path="Creational Design Patterns/Factory/Example #1/src"/>
+	<classpathentry kind="src" path="Creational Design Patterns/Singleton/Example #1/src"/>
+	<classpathentry kind="src" path="Structural Design Patterns/Adapter/Example #1/src"/>
+	<classpathentry kind="src" path="Structural Design Patterns/Composite/Example #1/src"/>
+	<classpathentry kind="src" path="Structural Design Patterns/Decorator/Example #1/src"/>
+	<classpathentry kind="src" path="Structural Design Patterns/Facade/Example #1/src"/>
+	<classpathentry kind="lib" path="Behavioral Design Patterns/Observer/Example #1/ObserverDesignPattern/lib/CopyLibs/org-netbeans-modules-java-j2seproject-copylibstask.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
