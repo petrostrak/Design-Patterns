@@ -12,7 +12,7 @@ public class Main {
 		GeekyStoreCatalog geekyStoreCatalog = new GeekyStoreCatalog();
 		//ArrayList<Product> geekyCatalog = geekyStoreCatalog.getCatalog();
 		
-		Seller seller = new Seller(geekyStoreCatalog);
+		Seller seller = new Seller(geekyStoreCatalog, devStoreCatalog);
 		seller.printCatalog();
 		
 //		//loop through the Dev catalog array

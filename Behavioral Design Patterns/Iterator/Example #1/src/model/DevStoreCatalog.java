@@ -25,7 +25,11 @@ public class DevStoreCatalog {
 		}
 	}
 	
-	public Product[] getCatalog() {
-		return catalog;
+//	public Product[] getCatalog() {
+//		return catalog;
+//	}
+	
+	public DevStoreIterator createIterator() {
+		return new DevStoreIterator(catalog);
 	}
 }
