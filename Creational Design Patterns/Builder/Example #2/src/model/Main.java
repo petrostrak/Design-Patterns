@@ -6,7 +6,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		Person oldPerson = new Person.Builder("Petros", "Trak")
-				.phone("6942266075")
+				.phone("555-9293")
 				.address("Dodekanisou")
 				.age(34)
 				.build();

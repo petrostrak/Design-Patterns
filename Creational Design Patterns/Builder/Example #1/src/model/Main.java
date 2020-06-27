@@ -6,8 +6,8 @@ public class Main {
 		
 		User petros = new User.UserBuilder("Petros", "Trak")
 				.age(34)
-				.address("Dodekanisou 33")
-				.phoneNumber("6942266075")
+				.address("Dodekanisou")
+				.phoneNumber("555-6958")
 				.builder();
 		
 		System.out.println(petros);
