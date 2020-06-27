@@ -1,0 +1,11 @@
+Intent:
+
+Without violating encapsulation, capture and externalize an object's internal state so that the object can be stored to this state later
+
+Also known as : Token
+
+Use the Memento pattern when:
+  
+  -> a snapshot of (some portion of) an object's state must be saved so that it can be restored to that state later, and
+  
+  -> a direct interface to obtaining the state would expose implementation details and break the object's encapsulation
