@@ -12,7 +12,12 @@ Use the Bridge pattern when
   -> both the abstraction and their implementations should be extensible by subclassig. In this case, the Bridge
      pattern lets you combine the different abstractions and implementations and extend them independently.
      
-  -> changes in the implementation of an abstraction should have no impaxt on clients; that is, their code should
-     not haveto be recompiled.
+  -> changes in the implementation of an abstraction should have no impact on clients; that is, their code should
+     not have to be recompiled.
      
-  ->     
+  -> you have a proliferation of classes. Such a class hierarchy indicates the need for splitting an object into 
+     two parts. Rumbaugh uses the term 'nested generalizations' to refer to such class hierarchy
+     
+  -> you want to share an implementation among multiple objects (perhaps using reference counting), and this fact
+     should be hidden from the client. A simple example is Coplien's String class, in which multiple objects can
+     share the same string representation.
